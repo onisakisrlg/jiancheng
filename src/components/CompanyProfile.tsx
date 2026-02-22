@@ -72,6 +72,26 @@ export default function CompanyProfile() {
             </div>
           </dl>
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="mt-12 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden h-96"
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight={0}
+            marginWidth={0}
+            src="https://maps.google.com/maps?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E4%B8%AD%E5%8C%BA%E8%8B%B1%E7%94%BA3-3&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            title="Google Map"
+            aria-label="建誠株式会社の所在地"
+          ></iframe>
+        </motion.div>
       </div>
     </section>
   );

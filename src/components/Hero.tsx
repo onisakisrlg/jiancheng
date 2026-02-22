@@ -21,7 +21,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-lg md:text-xl font-medium tracking-widest mb-4 text-blue-300 uppercase">
-            神奈川・東京・一都三県対応
+            神奈川・横浜の内装工事なら建誠株式会社
           </h2>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">
             軽量下地から<br className="md:hidden" />リノベーションまで<br />
