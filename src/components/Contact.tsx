@@ -27,12 +27,18 @@ export default function Contact() {
                 <h3 className="text-xl font-bold">お電話</h3>
               </div>
               <p className="text-slate-400 mb-2">お急ぎの方はお電話にてご連絡ください。</p>
-              <a href="tel:070-3984-3428" className="text-3xl font-bold hover:text-blue-400 transition-colors block mb-2">
+              <a href="tel:045-568-5232" className="text-3xl font-bold hover:text-blue-400 transition-colors block mb-1">
+                045-568-5232
+              </a>
+              <a href="tel:070-3984-3428" className="text-xl font-semibold text-slate-400 hover:text-blue-400 transition-colors block mb-4">
                 070-3984-3428
               </a>
-              <div className="flex items-center text-slate-500 text-sm">
-                <Clock className="w-4 h-4 mr-2" />
-                <span>受付時間：9:00 - 18:00（日・祝除く）</span>
+              <div className="flex items-start text-slate-500 text-sm">
+                <Clock className="w-4 h-4 mr-2 mt-1 flex-shrink-0" />
+                <span>
+                  月〜金: 9:00 - 17:00<br />
+                  土日: 11:00 - 15:00
+                </span>
               </div>
             </div>
             

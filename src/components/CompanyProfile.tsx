@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { MapPin, Phone, Mail, User, Briefcase, FileText } from 'lucide-react';
+import { MapPin, Phone, Mail, User, Briefcase, FileText, Clock } from 'lucide-react';
 
 export default function CompanyProfile() {
   return (
@@ -58,7 +58,17 @@ export default function CompanyProfile() {
                 連絡先
               </dt>
               <dd className="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
-                070-3984-3428
+                045-568-5232 / 070-3984-3428
+              </dd>
+            </div>
+            <div className="px-6 py-6 sm:grid sm:grid-cols-3 sm:gap-4 hover:bg-slate-50 transition-colors">
+              <dt className="text-sm font-medium text-slate-500 flex items-center">
+                <Clock className="w-4 h-4 mr-2 text-blue-500" />
+                営業時間
+              </dt>
+              <dd className="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
+                月〜金: 9:00 - 17:00<br />
+                土日: 11:00 - 15:00
               </dd>
             </div>
             <div className="px-6 py-6 sm:grid sm:grid-cols-3 sm:gap-4 hover:bg-slate-50 transition-colors">
