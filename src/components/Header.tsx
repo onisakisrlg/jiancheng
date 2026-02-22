@@ -18,8 +18,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="text-2xl font-bold text-slate-800 tracking-wider">
-              建誠株式会社
+            <a href="#" className="flex items-center gap-3">
+              <img 
+                src="https://i.postimg.cc/8P8WRHk0/c0c5a1affa1880974e8ced023da7c228.jpg" 
+                alt="建誠株式会社 Logo" 
+                className="h-12 w-auto object-contain rounded-md" 
+              />
+              <span className="text-2xl font-bold text-slate-800 tracking-wider">
+                建誠株式会社
+              </span>
             </a>
           </div>
           

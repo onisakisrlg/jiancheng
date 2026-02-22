@@ -58,7 +58,16 @@ export default function CompanyProfile() {
                 連絡先
               </dt>
               <dd className="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
-                045-568-5232 / 070-3984-3428
+                <div className="flex flex-col gap-1">
+                  <div>
+                    <span className="text-slate-500 text-xs mr-2">TEL</span>
+                    <span className="font-medium">045-568-5232</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-500 text-xs mr-2">携帯</span>
+                    <span className="font-medium">070-3984-3428</span>
+                  </div>
+                </div>
               </dd>
             </div>
             <div className="px-6 py-6 sm:grid sm:grid-cols-3 sm:gap-4 hover:bg-slate-50 transition-colors">
@@ -67,8 +76,8 @@ export default function CompanyProfile() {
                 営業時間
               </dt>
               <dd className="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
-                月〜金: 9:00 - 17:00<br />
-                土日: 11:00 - 15:00
+                月〜金: 9:00 AM – 5:00 PM<br />
+                土日: 11:00 AM – 3:00 PM
               </dd>
             </div>
             <div className="px-6 py-6 sm:grid sm:grid-cols-3 sm:gap-4 hover:bg-slate-50 transition-colors">
