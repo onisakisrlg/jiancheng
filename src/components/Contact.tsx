@@ -30,13 +30,13 @@ export default function Contact() {
               
               <div className="space-y-3 mb-6">
                 <div>
-                  <p className="text-xs text-slate-500 mb-1">TEL（代表）</p>
+                  <p className="text-xs text-slate-500 mb-1">TEL</p>
                   <a href="tel:045-568-5232" className="text-2xl font-bold hover:text-blue-400 transition-colors block">
                     045-568-5232
                   </a>
                 </div>
                 <div>
-                  <p className="text-xs text-slate-500 mb-1">携帯（担当者）</p>
+                  <p className="text-xs text-slate-500 mb-1">携帯</p>
                   <a href="tel:070-3984-3428" className="text-2xl font-bold hover:text-blue-400 transition-colors block">
                     070-3984-3428
                   </a>
