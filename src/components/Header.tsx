@@ -20,7 +20,7 @@ export default function Header() {
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="flex items-center gap-3">
               <img 
-                src="https://i.postimg.cc/8P8WRHk0/c0c5a1affa1880974e8ced023da7c228.jpg" 
+                src="https://i.postimg.cc/fbN9Pt3f/23386beba9db7e49fe64389789b622e9.jpg" 
                 alt="建誠株式会社 Logo" 
                 className="h-12 w-auto object-contain rounded-md" 
               />
